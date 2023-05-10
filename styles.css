@@ -29,11 +29,13 @@ nav span {
 nav ul {
   width: 760px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   list-style: none;
   margin: 0px;
   padding: 0px;
+  padding-left: 20px;
+  padding-right: 120px;
 }
 
 h1 {
@@ -61,4 +63,61 @@ h2 span {
   gap: 30px;
   width: 960px;
   margin: 0 auto;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  padding: 0px
+}
+
+section div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  width: 960px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+section div article {
+  display: flex;
+  flex-direction: column;
+  
+  height: 400px;
+}
+
+article h3 {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+  margin: 0px;
+  padding: 0px;
+}
+
+article p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  overflow: auto;
+  padding-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+input {
+color: lightgray;
+background-color: black;
+transition: 350ms ease;
+border: none;
+border-radius: 2px;
+width: 150px;
+height: 50px;
+}
+
+input:hover {
+  color: white;
+  background: red;
 }
