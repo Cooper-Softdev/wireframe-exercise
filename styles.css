@@ -104,6 +104,7 @@ article p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: italic;
   overflow: auto;
+  padding-top: 5px;
   padding-right: 10px;
   margin-top: 0px;
   margin-bottom: 8px;
