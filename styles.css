@@ -41,16 +41,15 @@ nav ul {
   padding-right: 120px;
 }
 
-h1 {
+img {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 0px;
-  margin-bottom: 30px;
   padding: 0px;
 }
 
-h2 {
+div {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -59,7 +58,7 @@ h2 {
   padding: 0px
 }
 
-h2 span {
+main div span {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -90,7 +89,6 @@ section div {
 section div article {
   display: flex;
   flex-direction: column;
-  
   height: 400px;
 }
 
