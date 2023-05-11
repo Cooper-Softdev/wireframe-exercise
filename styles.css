@@ -1,3 +1,4 @@
+
 header {
   width: 100%;
   background-color: #444;
@@ -94,14 +95,14 @@ section div article {
 }
 
 article h3 {
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: normal;
   margin: 0px;
   padding: 0px;
 }
 
 article p {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-style: italic;
   overflow: auto;
   padding-top: 5px;
@@ -111,13 +112,14 @@ article p {
 }
 
 input {
-color: lightgray;
-background-color: black;
-transition: 350ms ease;
-border: none;
-border-radius: 2px;
-width: 150px;
-height: 50px;
+  font-size: large;
+  color: lightgray;
+  background-color: black;
+  transition: 350ms ease;
+  border: none;
+  border-radius: 2px;
+  width: 175px;
+  height: 75px;
 }
 
 input:hover {
